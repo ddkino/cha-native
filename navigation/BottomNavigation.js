@@ -9,9 +9,10 @@ import LoginScreen from '../containers/Login/index';
 export default createBottomTabNavigator(
   {
     Home: HomeScreen,
-    Settings: LoginScreen,
+    Login: LoginScreen,
   },
   {
+    initialRouteName: 'Login',
     navigationOptions: ({ navigation }) => ({
       tabBarIcon: ({ focused, tintColor }) => {
         const { routeName } = navigation.state;

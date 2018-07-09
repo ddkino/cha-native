@@ -6,9 +6,7 @@ import Navigation from './navigation/Navigation';
 import BottomNavigation from './navigation/BottomNavigation';
 import store from "./lib/Store";
 
-//
-// const randomNumber = Math.random();
-// debugger;
+console.ignoredYellowBox = ['Remote debugger'];
 
 class App extends React.Component {
   render() {
